@@ -122,8 +122,8 @@ nav .right span{
   .bold{
       font-weight: bold;
   }
-  h2{
-      font-size: 1.75rem;
+  .practicing h1{
+      font-size: 2.5rem;
       color: rgba(43, 53, 53, 0.8);
   }
   p{
@@ -166,4 +166,53 @@ nav .right span{
 h4{
     font-size: 1.5rem;
     color: rgba(43, 53, 53, 0.9);
+}
+
+  /*Second Section*/
+
+.learning{
+    background-color: rgba(175, 171, 171, 0.5);
+    width: 100%;
+    margin: 0;
+}
+.learning h1{
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 8px;
+    font-size: 2.5rem;
+    color: rgba(13, 34, 34, 0.85);
+}
+.majors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 72px;
+}
+.software_engineering,
+.computer_art,
+.design,
+.data,
+.business,
+.marketing{
+    width: 30%;
+    background-color: white;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+.majors img{
+    width: 100%;
+    height: auto;
+}
+.data,
+.business,
+.marketing{
+    margin-bottom: 32px;
+}
+.majors h4,
+.majors p{
+    padding: 0 16px;
+}
+.majors p{
+    color: gray;
+    opacity: 0.8;
 }
