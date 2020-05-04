@@ -3,7 +3,9 @@
     font-size: 16px;
 }
 /*Header*/
+
   /*Navigation*/
+
 nav{
     height: 64px;
     width: 100%;
@@ -49,6 +51,7 @@ nav .right span{
     margin-right: 16px;
 }
   /*Banner*/
+
   .banner{
       background-color: rgba(175, 171, 171, 0.7);
       width: 100%;
@@ -92,5 +95,75 @@ nav .right span{
   }
   h3{
       font-size: 2rem;
-      color: rgb(43, 53, 53)
+      color: rgba(43, 53, 53, 0.8)
   }
+  /*Main*/
+
+  /*First Section*/
+
+  .practicing{
+      background-color: white;
+      display: inline-flex;
+      width: 100%;
+      margin-top: 32px;
+  }
+  .practicing .left{
+      width: 60%;
+      box-sizing: border-box;
+      margin: 0 24px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+  }
+  .practicing .left img{
+      height: auto;
+      width: 100%;
+  }
+  .bold{
+      font-weight: bold;
+  }
+  h2{
+      font-size: 1.75rem;
+      color: rgba(43, 53, 53, 0.8);
+  }
+  p{
+    color: rgba(43, 53, 53, 0.8);
+  }
+  .practicing .right{
+      width: 40%;
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+  }
+  .practicing .right .top{
+      display: inline-flex;
+      align-items: center;
+  }
+  .practicing .right .middle{
+    display: inline-flex;
+    align-items: center;
+}
+.practicing .right .bottom{
+    display: inline-flex;
+    align-items: center;
+}
+.practicing .right .image{
+    margin: 16px 24px;
+    width: 35%;
+}
+.practicing .right img{
+    width: 100%;
+}
+.practicing .right .bottom .text{
+    width: 65%;
+}
+.practicing .right .text{
+    width: 65%;
+}
+.blue{
+    color: lightskyblue;
+}
+h4{
+    font-size: 1.5rem;
+    color: rgba(43, 53, 53, 0.9);
+}
