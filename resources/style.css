@@ -27,8 +27,15 @@ nav .left img{
 nav .left .text{
     font-size: 100%;
 }
+.text{
+    font-weight: bold;
+}
+.text.colmar{
+    color: black;
+}
 .text.academy{
     color: gray;
+    opacity: 0.8;
 }
 nav .right{
     width: 28%;
