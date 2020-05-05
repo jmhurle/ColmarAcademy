@@ -399,3 +399,11 @@ footer span{
         width: 100%;
     }
 }
+/*Transitions Attempt*/
+.practicing .right .top:hover,
+.practicing .right .middle:hover,
+.practicing .right .bottom:hover{
+    transition-property: background-color;
+    transition-duration: 0.8s;
+    background-color: gray;
+}
