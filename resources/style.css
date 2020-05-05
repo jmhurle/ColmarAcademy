@@ -16,6 +16,9 @@ nav{
     z-index: 2;
     top: 0;
 }
+nav .portrait_icons{
+    display: none;
+}
 nav .left{
     width: 72%;
     height: 100%;
@@ -290,4 +293,20 @@ footer span{
 footer span{
     color: rgba(43, 53, 53, 0.8);
     font-size: 0.85rem
+}
+
+@media only screen and (orientation: portrait){
+    /*Nav*/
+    nav .left,
+    nav .right{
+        display: none;
+    }
+    nav .portrait_icons{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    nav .portrait_icons{
+        width: 100%;
+    }
 }
