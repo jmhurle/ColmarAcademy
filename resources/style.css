@@ -267,3 +267,27 @@ h4{
 .thesis .right .text{
   width: 65%;
 }
+
+  /*Footer*/
+
+footer{
+    border-top: 2px solid gray;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer p{
+    text-align: left;
+    padding-left: 24px;
+    width: 50%;
+    font-size: 0.85rem;
+}
+footer span{
+    float: right;
+    padding-right: 24px;
+}
+footer span{
+    color: rgba(43, 53, 53, 0.8);
+    font-size: 0.85rem
+}
