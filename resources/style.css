@@ -110,6 +110,9 @@ nav .right span{
       width: 100%;
       margin-top: 32px;
   }
+  .practicing .mobile{
+      display: none;
+  }
   .practicing .left{
       width: 60%;
       box-sizing: border-box;
@@ -185,6 +188,9 @@ h4{
     font-size: 2.5rem;
     color: rgba(13, 34, 34, 0.85);
 }
+.majors_mobile{
+    display: none;
+}
 .majors{
     display: flex;
     flex-wrap: wrap;
@@ -232,6 +238,9 @@ h4{
     background-color: white;
     display: inline-flex;
     width: 100%;
+}
+.thesis .thesis_mobile{
+    display: none;
 }
 .thesis .left{
     width: 60%;
@@ -307,6 +316,86 @@ footer span{
         justify-content: space-around;
     }
     nav .portrait_icons{
+        width: 100%;
+    }
+    /*Banner*/
+    .banner{
+        flex-wrap: wrap;
+    }
+    .banner .image{
+        width: 100%;
+        margin: 0;
+    }
+    .banner .text{
+        width: 100%;
+    }
+    button{
+        margin-bottom: 32px;
+    }
+    /*First Section*/
+    .practicing .left,
+    .practicing .right{
+        display: none;
+    }
+    .practicing .mobile{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-bottom: 2px dashed lightgray;
+    }
+    .practicing .mobile .topm,
+    .practicing .mobile .middlem,
+    .practicing .mobile .bottomm{
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .practicing .mobile .topm{
+        margin-top: 16px;
+    }
+    .practicing .mobile .middlem{
+        margin-top: 64px;
+    }
+    .practicing .mobile .bottomm{
+        margin-top: 64px;
+        margin-bottom: 32px;
+    }
+    .practicing .mobile h4,
+    .practicing .mobile p{
+        padding-left: 16px;
+    }
+    /*Second Section*/
+    .learning{
+        background-color: white;
+        border-bottom: 2px dashed lightgray;
+    }
+    .learning .majors{
+        display: none;
+    }
+    .learning .majors_mobile{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .learning .majors_mobile h4{
+        box-sizing: border-box;
+        width: 100%;
+        background-color: rgba(175, 171, 171, 0.7);
+        padding: 20px 0 20px 16px;
+        margin: 8px 16px;
+        border-radius: 8px;
+    }
+    #last_major{
+        margin-bottom: 32px;
+    }
+    /*Third Section*/
+    .thesis .right,
+    .thesis .left h4,
+    .thesis .left p{
+        display: none;
+    }
+    .thesis .left{
         width: 100%;
     }
 }
